@@ -4,42 +4,57 @@
     <meta charset="UTF-8">
     <title>HTML</title>
     <style>
-    
-        h1{
-            font-family: sans-serif;
-            font-weight: 600;
-            font-size: 3em;
-            color: rgb(255, 136, 0);
-          }
-        
-        p{
-            font-weight: 600;
-        }
-        
-        body{
-            font-size: 16px;
-            font-style:inherit;
-            line-height:normal;
-            text-align:justify;
-            text-decoration:rgb(59, 0, 252);}
-        
-        
-        ul{
-            background-color: rgb(255, 0, 179);
-        }  
 
+      h1{
+
+        font-size: 65px;
+        font-family: sans-serif;
+        color: orange;
+      }
+
+      ul{
+        /* background-color: orange; */
+        text-decoration:underline;
+      }
+
+      .bcolor_ilist1 {background-color: yellow ;}
+      .bcolor_ilist2 {background-color: red;}
+      .bcolor_ilist3 {background-color:brown;}
+
+
+     .p_list{
+      background-color: orange;
+      }
+
+      body{
+         font-size: 16px;
+         font-style:inherit;
+         line-height: 35px;         
+       } 
+
+      p{
+        font-weight: 600;
+        font-size: 3em;
+       }
     </style>
   </head>
   <body>
     <h1>Exercícios 3.2</h1>
-    <p class="bg_color">Qual é a sua cor favorita?</p>
+    <p class = "p_list">Qual é a sua cor favorita?</p>
     <ul>
-      <li>Amarelo</li>
-      <li>Vermelho</li>
-      <li>Marrom</li> 
+      <li class = "bcolor_ilist1">Amarelo</li>
+      <li class = "bcolor_ilist2">Vermelho</li>
+      <li class = "bcolor_ilist3">Marrom</li>
     </ul>
 
-    <!-- Exercícios
+     <!-- Exercícios
+     1 - Modifique o tamanho do h1 para 65 pixels (done)
+     2 - Modifique a cor do texto do h1 para laranja (done)
+     3 - Modifique a cor de fundo da lista não ordenada (done)
+     4 - Crie uma classe para modificar a cor de fundo da tag p e da ul ao mesmo tempo (done)
+    -->
+
+    <!-- Exercícios 2.1
      1 - Modifique o família do h1 para sans-serif
      2 - Deixe o parágrafo com o font-weight 600
      3 - Modifique o font-size do body para 16px
