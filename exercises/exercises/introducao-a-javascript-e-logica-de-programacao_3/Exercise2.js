@@ -6,5 +6,5 @@ let inputLine = '';
 
 for (indexColuna = 0; indexColuna < size; indexColuna += 1){
     inputLine += symbol;
-    console.log(inputLine)
+    console.log(inputLine);
 }
