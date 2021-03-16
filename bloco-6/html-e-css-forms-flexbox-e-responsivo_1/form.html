@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang='pt-br'>
+  <head>
+    <meta charset='UTF-8'/>
+    <title>Curriculo</title>
+    <link rel='stylesheet' href='styles.css'/>
+  </head>
+  <body>
+    <header class='speaker-form-header'>
+      <h1>curriculum vitae</h1>
+      <p><em>Preencha com atenção</em></p>
+    </header>
+    <form action="" method="get" class="speaker-form">
+      <div class="form-row">
+        <div class="line-content">
+          <fieldset class="legacy-form-row">
+            <legend>Curriculum</legend>
+            <div class="form-row">
+              <div class="line-content">
+                <label for="full-name">Name</label>
+                <input type="text" name="name" id="full-name" placeholder="Enter your full name" required>
+                <br><br>
+                <label for="email">E-mail</label>
+                <input type="text" name="email" id="email" placeholder="Enter your e-mail" required>
+                <br><br>
+                <label for="cpf">CPF</label>
+                <input type="text" name="cpf" id="cpf" placeholder="Enter your CPF" required>
+                <br><br>                
+                <label for="endereco">Endereço</label>
+                <input type="text" name="endereco" id="endereco" placeholder="Enter the address" required>
+                <br><br>
+                <label for="cidade">Cidade</label>
+                <input type="text" name="cidade" id="cidade" placeholder="Enter the City" required>
+                <br><br>
+                <label for="estado">Estado</label>
+                <select id="estado" name="estado">
+                  <option value="AC">Acre</option>
+                  <option value="AL">Alagoas</option>
+                  <option value="AP">Amapá</option>
+                  <option value="AM">Amazonas</option>
+                  <option value="BA">Bahia</option>
+                  <option value="CE">Ceará</option>
+                  <option value="DF">Distrito Federal</option>
+                  <option value="ES">Espírito Santo</option>
+                  <option value="GO">Goiás</option>
+                  <option value="MA">Maranhão</option>
+                  <option value="MT">Mato Grosso</option>
+                  <option value="MS">Mato Grosso do Sul</option>
+                  <option value="MG" selected>Minas Gerais</option>
+                  <option value="PA">Pará</option>
+                  <option value="PB">Paraíba</option>
+                  <option value="PR">Paraná</option>
+                  <option value="PE">Pernambuco</option>
+                  <option value="PI">Piauí</option>
+                  <option value="RJ">Rio de Janeiro</option>
+                  <option value="RN">Rio Grande do Norte</option>
+                  <option value="RS">Rio Grande do Sul</option>
+                  <option value="RO">Rondônia</option>
+                  <option value="RR">Roraima</option>
+                  <option value="SC">Santa Catarina</option>
+                  <option value="SP">São Paulo</option>
+                  <option value="SE">Sergipe</option>
+                  <option value="TO">Tocantins</option>
+                  <option value="EX">Estrangeiro</option>
+              </select>                   
+                <br><br>
+                <label for="casa">
+                <input type="radio" name="tipo" id="casa" value="casa" checked> Casa
+              </label>
+                <label for="apartamento">
+                <input type="radio" name="tipo" id="apartamento" value="apartamento">Apartamento
+              </label>
+                <br><br>
+              </div>
+              <div class="line-content">                      
+          </fieldset>
+        <div class="line-content">  
+        </div>        
+        <div class="line-content">
+          <fieldset class="legacy-form-row">
+            <div class="form-row">
+              <div class="line-content">            
+            <legend>Resumo do currículo</legend>
+              <div class="line-content">
+                <label for="abstract">Resumo
+                <textarea name="abstract" id="text-area" cols="40" rows="10" maxlength="500" placeholder="Describe your talk in 500 characters or less." required></textarea>
+              </label>
+              <br><br>
+              <label for="Cargo">Cargo</label>
+                <input type="text" name="Cargo" id="cargo" placeholder="Enter your position" required>
+                <br><br>
+                <label for="data">Descrição do cargo</label>
+                <input type="text" name="data" id="data" placeholder="Describre the rolls" required aria-modal="500">
+                <br><br>
+                <label for="date">Enter the date:
+                <input type="date" name="date" required pattern="\d{4}-\d{2}-\d{2}">
+                
+              <div class="line-content"> 
+              </div>
+            </div>
+          </fieldset>
+          <button type="submit">Submit</button>
+        </div>
+      </div>
+    </form>
+  </body>
+</html>
